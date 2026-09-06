@@ -1,17 +1,44 @@
-# weather_app
+# 🌤️ Hava Durumu Uygulaması
 
-A new Flutter project.
+Flutter ile geliştirilmiş, gerçek zamanlı verilerle çalışan bir hava durumu uygulaması. Bu proje, mobil uygulama geliştirmeyi öğrenirken sıfırdan inşa edildi.
 
-## Getting Started
+## ✨ Özellikler
 
-This project is a starting point for a Flutter application.
+- 🔍 Şehir adına göre anlık hava durumu araması
+- 📍 GPS ile konum bazlı otomatik hava durumu
+- 📅 5 günlük hava durumu tahmini
+- ⏰ Bugüne özel saatlik tahmin (gece 06:00'a kadar)
+- ⭐ Favori şehirleri kaydetme ve tek tıkla erişim
+- 🕐 Arama geçmişi ve akıllı öneri listesi
+- 🌙 Karanlık mod desteği
+- 💧 Nem, rüzgar hızı ve hissedilen sıcaklık bilgileri
+- 🎨 Hava durumuna göre değişen dinamik renkler ve ikonlar
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Kullanılan Teknolojiler
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- **Flutter & Dart** — Uygulama geliştirme
+- **OpenWeatherMap API** — Hava durumu verileri
+- **Geolocator** — GPS konum servisleri
+- **Shared Preferences** — Yerel veri saklama (favoriler, geçmiş)
+- **flutter_dotenv** — API anahtarı güvenliği
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Kurulum
+
+1. Bu repository'yi klonla:git clone https://github.com/alperenkeremoglu0-cloud/weather_app.git
+
+2. Bağımlılıkları yükle:
+
+flutter pub get
+
+3. Kök dizinde bir `.env` dosyası oluştur ve OpenWeatherMap API anahtarını ekle:
+
+OPENWEATHER_API_KEY=senin_api_anahtarin
+
+4. Uygulamayı çalıştır:
+
+flutter run
+
+
+## 👤 Geliştirici
+
+Neşat Alperen Keremoğlu — Bilgisayar Mühendisliği öğrencisi
