@@ -28,16 +28,17 @@ Flutter ile geliştirilmiş, gerçek zamanlı verilerle çalışan bir hava duru
 git clone https://github.com/alperenkeremoglu0-cloud/weather_app.git
 
 2. Bağımlılıkları yükle:
-
 flutter pub get
 
-3. Kök dizinde bir `.env` dosyası oluştur ve OpenWeatherMap API anahtarını ekle:
+3. [openweathermap.org](https://openweathermap.org/api) adresinden ücretsiz bir API anahtarı al.
 
+4. Proje kök dizininde bir `.env` dosyası oluştur ve şu satırı ekle:
 OPENWEATHER_API_KEY=senin_api_anahtarin
 
-4. Uygulamayı çalıştır:
-
+5. Bir Android emulator başlat veya telefonunu bağla, sonra uygulamayı çalıştır:
 flutter run
+
+**Not:** Flutter SDK'nın ve Android geliştirme ortamının (Android Studio) kurulu olması gerekir.
 
 
 ## 👤 Geliştirici
