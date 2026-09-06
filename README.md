@@ -24,7 +24,8 @@ Flutter ile geliştirilmiş, gerçek zamanlı verilerle çalışan bir hava duru
 
 ## 🚀 Kurulum
 
-1. Bu repository'yi klonla:git clone https://github.com/alperenkeremoglu0-cloud/weather_app.git
+1. Bu repository'yi klonla:
+git clone https://github.com/alperenkeremoglu0-cloud/weather_app.git
 
 2. Bağımlılıkları yükle:
 
